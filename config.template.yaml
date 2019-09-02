@@ -3,7 +3,7 @@
 #####################
 
 # can also be specified as the 'ADMIN_PASSWORD' environment variable
-admin_password: ADMIN_PASSWORD
+admin_password: null
 
 # can also be specified as the 'BASE_URL' environment variable
 #
@@ -11,32 +11,32 @@ admin_password: ADMIN_PASSWORD
 # make sure to have a trailing slash. this must be set for emailed links to
 # work properly. if you are setting DISABLE_EMAIL, you can set this setting to
 # '_unused_' (or anything else).
-base_url: BASE_URL
+base_url: null
 
 # can also be specified as the 'EMAIL_FROM' environment variable
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_from: EMAIL_FROM
+email_from: null
 
 # can also be specified as the 'EMAIL_USER' environment variable
 #
 # this is the username that'll be used for SMTP authentication. if you are
 # setting DISABLE_EMAIL, you can set this setting to '_unused_' (or anything
 # else).
-email_user: EMAIL_USER
+email_user: null
 
 # can also be specified as the 'EMAIL_PASSWORD' environment variable
 #
 # if you are setting DISABLE_EMAIL, you can set this setting to '_unused_' (or
 # anything else).
-email_password: EMAIL_PASSWORD
+email_password: null
 
 # can also be specified as the 'SECRET_KEY' environment variable
 #
 # this is used to prevent tampering with sessions. this should be some
 # reasonably long random string.
-secret_key: SECRET_KEY
+secret_key: null
 
 #####################
 # Optional Settings #
@@ -44,22 +44,22 @@ secret_key: SECRET_KEY
 
 # can also be specified as the 'DATABASE_URL' or 'DB_URI' environment variable
 # defaults to 'postgresql://localhost/gavel'
-db_uri: DATABASE_URL
+db_uri: null
 
 # can also be specified as the 'REDIS_URL' or 'BROKER_URI' environment variable
 # defaults to 'redis://localhost:6379/0'
-broker_uri: REDIS_URL
+broker_uri: null
 
 # can also be specified as the 'PORT' environment variable
 # defaults to '5000'
-port: PORT
+port: null
 
 # can also be specified as the 'MIN_VIEWS' environment variable
 # defaults to '2'
 #
 # this is the minimum number of times each item needs to be seen before
 # switching to more sophisticated item selection strategies.
-min_views: MIN_VIEWS
+min_views: null
 
 # can also be specified as the 'TIMEOUT' environment variable
 # defaults to '5.0'
@@ -67,35 +67,35 @@ min_views: MIN_VIEWS
 # this is the maximum amount of time (in minutes) a judge will have a project
 # to themselves before other judges can also be assigned to the same project.
 # having a timeout can be useful in situations where judges disappear.
-timeout: TIMEOUT
+timeout: null
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_WELCOME_MESSAGE
 #
 # this is the welcome message that's shown to judges before they can start
 # using the system. the message is rendered as Markdown.
-welcome_message: WELCOME_JUDGE
+welcome_message: null
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_CLOSED_MESSAGE
 #
 # this is the message that's shown to judges when the judging system is closed.
 # the message is rendered as Markdown.
-closed_message: THE_APP_IS_CURRENTLY_CLOSED
+closed_message: null
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_DISABLED_MESSAGE
 #
 # this is the message that's shown to judges when their account is disabled.
 # the message is rendered as Markdown.
-disabled_message: YOUR_ACCOUNT_IS_DISABLED
+disabled_message: null
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_LOGGED_OUT_MESSAGE
 #
 # this is the message that's shown to judges when they are logged out. the
 # message is rendered as Markdown.
-logged_out_message: YOU_ARE_LOGGED_OUT
+logged_out_message: null
 
 # can't be specified via environment variable
 # defaults to gavel.constants.DEFAULT_WAIT_MESSAGE
@@ -103,20 +103,20 @@ logged_out_message: YOU_ARE_LOGGED_OUT
 # this is the message that's shown to judges when they don't have any pending
 # assignments (and can reload the page to check again). the message is rendered
 # as Markdown.
-wait_message: YOU_DONT_HAVE_ANY_PENDING_ASSIGNMENTS
+wait_message: null
 
 # can also be specified as the 'DISABLE_EMAIL' environment variable
 # defaults to 'False'
 #
 # setting this to true disables email functionality.
-disable_email: DISABLE_EMAIL
+disable_email: null
 
 # can also be specified as the 'EMAIl_AUTH_MODE' environment variable
 # defaults to 'tls'
 #
 # can either be 'tls', 'ssl' or 'none'. if you are setting DISABLE_EMAIL, you can set
 # this setting to '_unused_' (or anything else).
-email_auth_mode: EMAIL_AUTH_MODE
+email_auth_mode: null
 
 # can also be specified as the 'EMAIL_HOST' environment variable
 # defaults to 'smtp.gmail.com'
