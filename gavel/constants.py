@@ -27,7 +27,7 @@ If at any point, you can't find a particular submission, you can click the
 'Skip' button and you will be assigned a new project. **Please don't skip
 unless absolutely necessary.**
 
-Gavel makes it really simple for you to submit votes, but please think hard
+We make it really simple for you to submit votes, but please think hard
 before you vote. **Once you make a decision, you can't take it back**.
 '''.strip()
 
@@ -36,7 +36,7 @@ DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to Gavel, the online expo judging system. This email contains your
+Welcome to the TeenHacksLi Judging Portal, the online expo judging system. This email contains your
 magic link to the judging system.
 
 DO NOT SHARE this email with others, as it contains your personal magic link.
