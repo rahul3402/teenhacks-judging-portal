@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  color: #000; /* $text-color */
+  color: $text-color;  
   background-color: $light;
 }
 
