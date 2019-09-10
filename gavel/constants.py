@@ -11,7 +11,7 @@ SETTING_FALSE = 'false'
 # Defaults
 # these can be overridden via the config file
 DEFAULT_WELCOME_MESSAGE = '''
-Welcome to Gavel.
+Welcome to TeenHacksLi Judging Portal.
 
 **Please read this important message carefully before continuing.**
 
