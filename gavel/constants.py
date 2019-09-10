@@ -15,7 +15,7 @@ Welcome to TeenHacksLi Judging Portal.
 
 **Please read this important message carefully before continuing.**
 
-Gavel is a fully automated expo judging system that both tells you where to go
+TeenHacksLi Judging Portal is a fully automated expo judging system that both tells you where to go
 and collects your votes.
 
 The system is based on the model of pairwise comparison. You'll start off by
